@@ -14,7 +14,5 @@ WORKDIR /data
 COPY run.sh /
 RUN chmod a+x /run.sh
 
-COPY server.py /
-RUN chmod a+x /server.py
-
-CMD [ "/run.sh", "/server.py" ]
+COPY . /code
+CMD [ "/run.sh" ]
