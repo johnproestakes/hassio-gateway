@@ -2,7 +2,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 
-hostName = "homeassistant.local"
+hostName = "homeassistant2.local"
 serverPort = 8000
 
 class MyServer(BaseHTTPRequestHandler):
