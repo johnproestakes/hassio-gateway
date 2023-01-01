@@ -17,8 +17,8 @@ class MyServer(BaseHTTPRequestHandler):
         self.wfile.write(bytes("</body></html>", "utf-8"))
 
 if __name__ == "__main__":        
-    webServer = HTTPServer((hostName, serverPort), MyServer)
-    print("Server started http://%s:%s" % (hostName, serverPort))
+    webServer = HTTPServer(("", serverPort), MyServer)
+    print("Server started http://%s:%s" % ("", serverPort))
 
     try:
         webServer.serve_forever()
