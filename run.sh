@@ -3,4 +3,4 @@
 echo "Starting HASSIO Gateway"
 
 #python3 -m http.server 8000
-python3 server.py
+python3 ./server.py
