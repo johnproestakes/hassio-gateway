@@ -1,6 +1,6 @@
 name: "HASSIO Gateway"
 description: "Add gateway to Home Assistant"
-version: "0.0.2"
+version: "0.0.3"
 slug: "hassio_gateway"
 init: false
 arch:
