@@ -1,0 +1,11 @@
+name: "HASSIO Gateway"
+description: "Add gateway to Home Assistant"
+version: "1.0.0"
+slug: "hassio_gateway"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
