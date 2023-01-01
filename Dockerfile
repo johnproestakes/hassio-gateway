@@ -17,4 +17,4 @@ RUN chmod a+x /run.sh
 COPY server.py /
 RUN chmod a+x /server.py
 
-CMD [ "/run.sh" ]
+CMD [ "/run.sh", "/server.py" ]
