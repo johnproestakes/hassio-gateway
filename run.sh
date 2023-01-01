@@ -1,3 +1,5 @@
 #!/usr/bin/with-contenv bashio
 
-echo "Hello world!"
+echo "Starting HASSIO Gateway"
+
+python3 -m http.server 8000
